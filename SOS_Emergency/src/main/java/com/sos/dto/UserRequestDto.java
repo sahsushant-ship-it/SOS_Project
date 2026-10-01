@@ -1,0 +1,29 @@
+package com.sos.dto;
+
+import java.time.LocalDate;
+
+import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
+
+@Data
+public class UserRequestDto {
+	
+	@NotBlank(message = "Name is Required")
+	private String name;
+	
+	@NotBlank(message = "Phone Number is Required")
+	private String phone;
+	
+	
+	@NotBlank(message = "Email should be Valid")
+	private String email;
+	
+	@NotBlank(message = "Password is Required")
+	private String password;
+	
+	private String bloodGroup;
+	
+	private LocalDate dob;
+	
+
+}

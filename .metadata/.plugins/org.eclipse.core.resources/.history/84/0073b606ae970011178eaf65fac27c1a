@@ -1,0 +1,5 @@
+package com.sos.entity;
+
+public class User {
+
+}

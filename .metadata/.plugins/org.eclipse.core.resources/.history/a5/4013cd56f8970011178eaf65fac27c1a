@@ -1,0 +1,5 @@
+package com.sos.config;
+
+public class UserConfig {
+
+}

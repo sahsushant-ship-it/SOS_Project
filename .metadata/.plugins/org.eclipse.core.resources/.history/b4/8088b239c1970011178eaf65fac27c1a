@@ -1,0 +1,5 @@
+package com.sos.dto;
+
+public class NearestHospitalResponse {
+
+}

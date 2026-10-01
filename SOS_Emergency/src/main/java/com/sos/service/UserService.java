@@ -1,0 +1,22 @@
+package com.sos.service;
+
+
+
+import java.util.List;
+
+import com.sos.dto.UserRequestDto;
+import com.sos.dto.UserResponseDto;
+
+public interface UserService {
+	
+	UserResponseDto addUser(UserRequestDto requestDto);
+	
+	UserResponseDto getUserById(Integer id);
+	
+	List<UserResponseDto> getAllUsers();
+	
+	UserResponseDto updateUser(Integer id, UserRequestDto requestDto);
+	
+	void deleteUser(Integer id);
+
+}
